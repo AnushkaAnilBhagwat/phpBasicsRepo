@@ -9,7 +9,7 @@
 <body>
     <div class="container my-5">
         <h2>List of Clients</h2>
-        <a class="btn btn-primary" href="/create.php">New Client</a>
+        <a class="btn btn-primary" href="/phpBasics/phpMysqlCRUD/create.php">New Client</a>
         <br>
         <table>
             <thead>
@@ -49,8 +49,8 @@
                     <td>$row[email]</td>
                     <td>$row[created_at]</td>
                     <td>
-                        <a href='/edit.php?id = $row[id]' class='btn btn-primary btn-sm'>EDIT</a>
-                        <a href='/delete.php?id = $row[id]' class='btn btn-danger btn-sm'>DELETE</a>
+                        <a href='/phpBasics/phpMysqlCRUD/edit.php?id = $row[id]' class='btn btn-primary btn-sm'>EDIT</a>
+                        <a href='/phpBasics/phpMysqlCRUD/delete.php?id = $row[id]' class='btn btn-danger btn-sm'>DELETE</a>
                     </td>
                     </tr>
                     ";
